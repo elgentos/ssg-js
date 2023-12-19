@@ -41,7 +41,7 @@ All ``@description`` and ``@tags`` must be declared _before_ your host definitio
 
 # Changelog
 
-### Version 1.0.0 (2023-12-19)
+### Version 0.4.0 (2023-12-19)
 * Removed GCP support
 * Added [Hypernode Brancher](https://www.hypernode.com/en/brancher/) support
 
