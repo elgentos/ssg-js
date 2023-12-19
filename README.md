@@ -26,17 +26,6 @@ Run ``ssg`` from the command line. All server connections in your config file wi
 
 Select the desired server you want to connect to by using the arrow keys. When selected, press the ENTER key. Alternatively, press ESC if you wish to exit.
 
-## Javascript Usage
-```
-	var ssg = require('ssg-js');
-
-	// Use the default ~/.ssh/config file
-	ssg.run();
-
-	// Or specify a custom config file path
-	ssg.run('/path/to/my/ssh/config');
-```
-
 ## Adding Descriptions and Tags
 As SSH config doesn't come with an ability to add a description or tags, you must put in lines similar to the following in order to get the description and tag fields populated.
 
@@ -50,13 +39,11 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 
 All ``@description`` and ``@tags`` must be declared _before_ your host definition.
 
-## Generating Docs
-
-```
-	npm run docs
-```
-
 # Changelog
+
+### Version 1.0.0 (2023-12-19)
+* Removed GCP support
+* Added [Hypernode Brancher](https://www.hypernode.com/en/brancher/) support
 
 ### Version 0.3.0 (2021-11-19)
 * Removed DigitalOcean support
