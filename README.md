@@ -20,18 +20,17 @@ Run ``ssg`` from the command line. All server connections in your config file wi
 
 Select the desired server you want to connect to by using the arrow keys. When selected, press the ENTER key. Alternatively, press ESC if you wish to exit.
 
-## Adding Descriptions and Tags
+## Adding descriptions
 As SSH config doesn't come with an ability to add a description or tags, you must put in lines similar to the following in order to get the description and tag fields populated.
 
 ```
 	# @description My awesome description
-	# @tags tags separated by some spaces
 	Host uniquehostname
 		Hostname awesomehost.local
 		User ubuntu
 ```
 
-All ``@description`` and ``@tags`` must be declared _before_ your host definition.
+All ``@description`` must be declared _before_ your host definition.
 
 # Changelog
 
